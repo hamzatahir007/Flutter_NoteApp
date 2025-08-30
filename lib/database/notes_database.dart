@@ -12,7 +12,7 @@ class NotesDatabase {
     if (_database != null) return _database!;
 
     _database = await _initDB('notes.db');
-    return _database;
+    return _database!;
   }
 
   Future<sqflite.Database> _initDB(String filePath) async {
@@ -29,7 +29,7 @@ class NotesDatabase {
         title TEXT NOT NULL,
         description TEXT NOT NULL,
         date TEXT NOT NULL,
-        color INTEGER TEXT NOT NULL DEFAULT 0,
+        color INTEGER NOT NULL DEFAULT 0
       )
       ''');
   }
@@ -76,5 +76,10 @@ class NotesDatabase {
       where: 'id = ?',
       whereArgs: [id],
     );
+  }
+
+  Future<int> deleteNote(int id) async {
+    final db = await instance.database;
+    return await db.delete('notes', where: 'id = ?', whereArgs: [id]);
   }
 }

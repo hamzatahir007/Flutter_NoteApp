@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:notepad_app/screens/note_screen.dart';
 import 'package:notepad_app/secondscreen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(NotesApp());
 }
 
 class NotesApp extends StatelessWidget {
@@ -10,7 +11,15 @@ class NotesApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      title: 'Notes App',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blueGrey,
+        scaffoldBackgroundColor: const Color(0xFF1E1E1E),
+      ),
+      home: NotesScreen(),
+    );
   }
 }
 
