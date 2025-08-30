@@ -1,7 +1,3 @@
-<img width="1080" height="2400" alt="Screenshot_1756578182" src="https://github.com/user-attachments/assets/8a3d84b6-0866-4dce-ab78-8383e2d3f962" />
-<img width="1080" height="2400" alt="Screenshot_1756578175" src="https://github.com/user-attachments/assets/fe5fed05-0bd7-424e-86a8-d696bf635a84" />
-<img width="1080" height="2400" alt="Screenshot_1756578148" src="https://github.com/user-attachments/assets/8b7869b9-38b9-4df8-b087-9ff56c519a77" />
-<img width="1080" height="2400" alt="Screenshot_1756578137" src="https://github.com/user-attachments/assets/b5e8753f-d91f-451a-9951-e59fd46f8b80" />
 Flutter NoteApp
 
 A clean and intuitive note-taking application built with Flutter. Notes are locally stored using SQLite via sqflite, offering a seamless experience to add, edit, and manage notes right on your device.
@@ -96,6 +92,12 @@ Contribution
 Contributions are welcome! If you'd like to contribute:
 
 Fork the repository
+
+
+<img width="1080" height="2400" alt="Screenshot_1756578182" src="https://github.com/user-attachments/assets/8a3d84b6-0866-4dce-ab78-8383e2d3f962" />
+<img width="1080" height="2400" alt="Screenshot_1756578175" src="https://github.com/user-attachments/assets/fe5fed05-0bd7-424e-86a8-d696bf635a84" />
+<img width="1080" height="2400" alt="Screenshot_1756578148" src="https://github.com/user-attachments/assets/8b7869b9-38b9-4df8-b087-9ff56c519a77" />
+<img width="1080" height="2400" alt="Screenshot_1756578137" src="https://github.com/user-attachments/assets/b5e8753f-d91f-451a-9951-e59fd46f8b80" />
 
 Create a feature branch (git checkout -b feature/my-feature)
 
